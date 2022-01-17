@@ -1,0 +1,29 @@
+/* Universal Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Temporary Styles */
+
+* {
+    padding: 0.5rem;
+    border: 1px solid lightgrey;
+}
+
+html, body {
+    border: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    border: 1px solid rgb(170, 130, 170);
+}
+
+.bg-image {
+    background-color: rgb(137, 161, 137);
+}
+
+/* End Temporary Styles */
