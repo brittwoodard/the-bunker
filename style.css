@@ -126,6 +126,13 @@ a {
     background-repeat: no-repeat; 
 }
 
+.bg-map {
+    background-image: url(/images/the-bunker-map-banner.png);
+    background-position: 50% 100%;
+    background-size: cover;
+    background-repeat: no-repeat;  
+}
+
 .dark {
     background-color: #1c2a2b;
 }
@@ -142,5 +149,10 @@ a {
 
 .not-bold {
     font-weight: 500;
+}
+
+.fab {
+    font-size: 2rem;
+    padding-right: 1rem;
 }
 
