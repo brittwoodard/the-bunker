@@ -27,3 +27,28 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 /* End Temporary Styles */
+
+
+/* Typography */
+
+/* font-family: 'Raleway', sans-serif;
+font-size: 300 400 500 900 (normal and italic) */
+
+header h1{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 20vh;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* Utility Classes */
+
+/* Images */
+.bg-exterior {
+    background-image: url(/images/the-bunker-exterior.jpg);
+    min-height: 75vh;
+    background-position: 50% 47%;
+    background-size: cover;
+}
+
