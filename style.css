@@ -6,28 +6,6 @@
     box-sizing: border-box;
 }
 
-
-/* Temporary Styles */
-
-* {
-    padding: 0.5rem;
-    border: 1px solid lightgrey;
-}
-
-html, body {
-    border: none;
-}
-
-h1, h2, h3, h4, h5, h6, p {
-    border: 1px solid rgb(170, 130, 170);
-}
-
-/* End Temporary Styles */
-
-.bg-image {
-    background-color: #1c2a2b;
-}
-
 body {
     font-family: 'Raleway', sans-serif;
 }
@@ -40,6 +18,11 @@ font-size: 300 400 500 900 (normal and italic) */
 
 header h1{
     font-size: 20vh;
+    text-transform: uppercase;
+}
+
+footer h1 {
+    font-size: 3rem;
     text-transform: uppercase;
 }
 
@@ -58,6 +41,14 @@ h3 {
 
 a {
     color: inherit;
+    text-decoration: none;
+    display: block;
+    line-height: 1.4;
+}
+
+a:hover {
+    color: #4d6059;
+    transition: 0.5s;
 }
 
 /* Utility Classes */
@@ -76,8 +67,13 @@ a {
 .padded-2  { padding: 2rem;  }
 
 .margin-b-0 { margin-bottom: 0; }
+.margin-b-1 {margin-bottom: 1rem;}
 
 /* Images */
+.bg-image {
+    background-color: #1c2a2b;
+}
+
 .bg-exterior {
     background-image: url(/images/the-bunker-exterior.jpg);
     background-position: 50% 47%;
@@ -147,12 +143,16 @@ a {
 .center { text-align: center; }
 .right  { text-align: right; }
 
-.not-bold {
-    font-weight: 500;
-}
+.not-bold {font-weight: 500;}
+.bold {font-weight: 900;}
 
 .fab {
     font-size: 2rem;
     padding-right: 1rem;
+}
+
+.copyright {
+    font-size: 0.8rem;
+    margin-top: 2rem;
 }
 
