@@ -25,7 +25,7 @@ h1, h2, h3, h4, h5, h6, p {
 /* End Temporary Styles */
 
 .bg-image {
-    background-color: rgb(137, 161, 137);
+    background-color: #1c2a2b;
 }
 
 body {
@@ -56,8 +56,13 @@ h3 {
     padding: 0;
 }
 
+a {
+    color: inherit;
+}
+
 /* Utility Classes */
 
+.tall-25 { min-height: 25vh; }
 .tall-50 { min-height: 50vh; }
 .tall-60 { min-height: 60vh; }
 .tall-70 { min-height: 70vh; }
@@ -88,22 +93,52 @@ h3 {
 
 .bg-hall {
     background-image: url(/images/the-bunker-hall.jpg);
-    background-position: 50% 53%;
+    background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;  
+}
+
+.bg-lobby {
+    background-image: url(/images/the-bunker-lobby.jpg);
+    background-position: 50% 100%;
+    background-size: cover;
+    background-repeat: no-repeat;  
+}
+
+.bg-lounge {
+    background-image: url(/images/the-bunker-lounge.jpg);
+    background-position: 50% 60%;
+    background-size: cover;
+    background-repeat: no-repeat;  
+}
+
+.bg-sheets {
+    background-image: url(/images/the-bunker-sheets.jpg);
+    background-position: 50% 38%;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+.bg-palm {
+    background-image: url(/images/the-bunker-exterior.jpg);
+    background-position: 50% 28%;
+    background-size: cover;
+    background-repeat: no-repeat; 
 }
 
 .dark {
     background-color: #1c2a2b;
 }
 
+/* Text */
+
 .light-text {
     color: white;
 }
 
-.center {
-    text-align: center;
-}
+.left   { text-align: left; }
+.center { text-align: center; }
+.right  { text-align: right; }
 
 .not-bold {
     font-weight: 500;
