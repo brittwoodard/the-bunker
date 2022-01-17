@@ -41,12 +41,15 @@ font-size: 300 400 500 900 (normal and italic) */
 header h1{
     font-size: 20vh;
     text-transform: uppercase;
-    text-align: center;
 }
 
 h2 {
     font-size: 2rem;
     text-transform: uppercase;
+}
+
+h3 {
+    font-size: 2rem;
 }
 
 [class*="col-"] {
@@ -83,11 +86,26 @@ h2 {
     background-repeat: no-repeat;
 }
 
+.bg-hall {
+    background-image: url(/images/the-bunker-hall.jpg);
+    background-position: 50% 53%;
+    background-size: cover;
+    background-repeat: no-repeat;  
+}
+
 .dark {
     background-color: #1c2a2b;
 }
 
 .light-text {
     color: white;
+}
+
+.center {
+    text-align: center;
+}
+
+.not-bold {
+    font-weight: 500;
 }
 
