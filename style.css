@@ -164,7 +164,10 @@ a:hover {
 
 /* Media Query */
 
-@media (max-width: 36em) {
+@media (max-width: 48em) {
+    
+    .mob-margin-top {margin-top: 5%;}
+
     .flex-flip-sm {flex-direction: column-reverse;}
 
     .hide-sm {display: none;}
@@ -174,6 +177,8 @@ a:hover {
     }
 
     .mob-dark-text {color: #1c2a2b}
+
+    .mob-position {background-position: 26% 100%}
 
     .sm-margin-top-1 {margin-top: 1rem;}
 }
