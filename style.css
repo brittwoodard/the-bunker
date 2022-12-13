@@ -1,3 +1,8 @@
+/* Colors
+blue background: #1c2a2b 
+dark text: #030c1b
+*/
+
 * {
     margin: 0;
     padding: 0;
@@ -14,7 +19,27 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+h2, h3, h4, h5, h6 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-weight: 800;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+p:last-child {
+    margin-bottom: 0;
+}
+
 /* Reusable Utility Classes */
+.padded-5 {padding: 5%;}
+.padded-10 {padding: 10%;}
+.padded-05 {padding: 0.5rem;}
+.padded-1 {padding: 1rem;}
+
+.uppercase {text-transform: uppercase;}
 
 /* Images */
 .bg-image {
@@ -23,6 +48,25 @@ body {
     background-repeat: no-repeat;
 }
 
-.bg-exterior {
+.bg-bed {
+    background-image: url('/images/the-bunker-1.jpg');
+    min-height: 30vh;
+}
+
+.header {
     background-image: url('/images/the-bunker-5.jpg');
+    background-position: 50% 50%;
+    min-height: 60vh;
+    color: white;
+    font-size: 6vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.bg-dark {
+    background-color: #1c2a2b;
+    color: white;
 }
