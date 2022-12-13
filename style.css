@@ -13,10 +13,10 @@ dark text: #030c1b
     padding: 0;
 }
 
-/* Temporary Styles */
+/* Temporary Styles
 header {border: 1px solid grey;}
 section {border: 1px solid grey;}
-div {border: 1px solid grey;}
+div {border: 1px solid grey;} */
 
 /* Universal Styles */
 body {
@@ -56,6 +56,10 @@ footer h1 {
 .padded-1 {padding: 1rem;}
 
 .no-margin-b {margin-bottom: 0;}
+
+.tall-100 {min-height: 100vh;}
+.tall-75 {min-height: 75vh;}
+.tall-50 {min-height: 50vh;}
 
 .uppercase {text-transform: uppercase;}
 .center {text-align: center;}
@@ -104,14 +108,17 @@ footer h1 {
 
 .bg-exterior {
     background-image: url('/images/the-bunker-5.jpg');
-    background-position: 50% 26%;
-    min-height: 15vh;
+    background-position: 50% 18%;
+}
+
+.bg-map {
+    background-image: url('/images/map-sydney.png');
 }
 
 .header {
     background-image: url('/images/the-bunker-5.jpg');
     background-position: 50% 50%;
-    min-height: 60vh;
+    min-height: 100vh;
     color: white;
     font-size: 6vw;
     display: flex;
@@ -126,9 +133,14 @@ footer h1 {
     color: white;
 }
 
+.copyright {
+    background-color: #1c2a2b;
+    color: #adaeaf;
+}
+
 .fas {
     color: white;
-    size: 2rem;
+    size: 2.5rem;
     padding: 0 0.5rem;
     margin: 0 0.5rem;
 }
