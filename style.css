@@ -9,6 +9,10 @@ dark text: #030c1b
     box-sizing: border-box;
 }
 
+[class*="col-"] {
+    padding: 0;
+}
+
 /* Temporary Styles */
 header {border: 1px solid grey;}
 section {border: 1px solid grey;}
@@ -34,12 +38,21 @@ p:last-child {
 }
 
 /* Reusable Utility Classes */
+.padded-0 {padding: 0;}
 .padded-5 {padding: 5%;}
 .padded-10 {padding: 10%;}
 .padded-05 {padding: 0.5rem;}
 .padded-1 {padding: 1rem;}
 
+.no-margin-b {margin-bottom: 0;}
+
 .uppercase {text-transform: uppercase;}
+.center {text-align: center;}
+
+.thin {font-weight: 200;}
+.regular {font-weight: 400;}
+.bold {font-weight: 800;}
+.x-bold {font-weight: 900;}
 
 /* Images */
 .bg-image {
@@ -51,6 +64,12 @@ p:last-child {
 .bg-bed {
     background-image: url('/images/the-bunker-1.jpg');
     min-height: 30vh;
+}
+
+.bg-hall {
+    background-image: url('/images/the-bunker-3.jpg');
+    background-position: center;
+    min-height: 40vh;
 }
 
 .header {
