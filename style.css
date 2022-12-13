@@ -3,3 +3,26 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Temporary Styles */
+header {border: 1px solid grey;}
+section {border: 1px solid grey;}
+div {border: 1px solid grey;}
+
+/* Universal Styles */
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Reusable Utility Classes */
+
+/* Images */
+.bg-image {
+    background-color: #7e8a88;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-exterior {
+    background-image: url('/images/the-bunker-5.jpg');
+}
