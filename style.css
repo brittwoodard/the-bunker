@@ -60,6 +60,7 @@ footer h1 {
 .tall-100 {min-height: 100vh;}
 .tall-75 {min-height: 75vh;}
 .tall-50 {min-height: 50vh;}
+.tall-25 {min-height: 25vh;;}
 
 .uppercase {text-transform: uppercase;}
 .center {text-align: center;}
@@ -108,7 +109,7 @@ footer h1 {
 
 .bg-exterior {
     background-image: url('/images/the-bunker-5.jpg');
-    background-position: 50% 18%;
+    background-position: 50% 26%;
 }
 
 .bg-map {
@@ -117,8 +118,8 @@ footer h1 {
 
 .header {
     background-image: url('/images/the-bunker-5.jpg');
-    background-position: 50% 50%;
-    min-height: 100vh;
+    background-position: 50% 48%;
+    min-height: 75vh;
     color: white;
     font-size: 6vw;
     display: flex;
