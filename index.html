@@ -2,6 +2,10 @@
 <html>
     <head>
         <title>The Bunker</title>
+
+        <!-- Media Query -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
         <!-- Gridless stylesheet -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
 
@@ -25,9 +29,9 @@
         </header>
 
         <!-- About Section -->
-        <section class="grid-spaceAround padded-5 bg-dark tall-75">
-            <div class="col-6 bg-image bg-bed"></div>
-            <div class="col-5-middle">
+        <section class="grid-spaceAround padded-5 bg-dark">
+            <div class="col-6_sm-12 bg-image bg-bed tall-50"></div>
+            <div class="col-5_sm-12-middle">
                 <h2 class="uppercase x-bold">Lux.</h2>
                 <p>We designed this hotel with 100% pure luxury in mind. From the 10,000 thread sheets to the on-demand butler service.</p>
                 <p>Experience The Bunker service today in downtown Sydney.</p>
@@ -35,7 +39,7 @@
         </section>
 
         <!-- Banner -->
-        <section class="bg-image bg-hall grid bg-dark tall-50">
+        <section class="bg-image bg-hall grid bg-dark tall-50 mob-tall-25">
             <h3 class="col-12-middle center uppercase x-bold no-margin-b">Opening mid May
             <br><span class="regular">2021</span>
             </h3>
@@ -45,30 +49,30 @@
         <section class="grid">
 
             <!-- Row 1 -->
-            <div class="col-6-middle padded-10">
+            <div class="col-6_sm-12-middle padded-10">
                 <h2 class="uppercase x-bold">Lobby dreams</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quod dignissimos consectetur voluptates odio placeat quaerat eaque, quas vitae perspiciatis voluptate? Fugit et nulla veniam totam laboriosam aperiam earum labore.</p>
             </div>
-            <div class="col-6 bg-image bg-lobby"></div>
+            <div class="col-6_sm-12 bg-image bg-lobby tall-50"></div>
 
             <!-- Row 2 -->
-            <div class="col-6 bg-image bg-bar"></div>
-            <div class="col-6-middle padded-10">
+            <div class="col-6_sm-12 bg-image bg-bar tall-50 flex-flip-mob"></div>
+            <div class="col-6_sm-12-middle padded-10">
                 <h2 class="uppercase x-bold">The Bunker Bar</h2>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae doloribus quas modi deserunt iste cum pariatur non iure ad ex eos nobis natus culpa velit reiciendis fugit, aut nihil? Ab?</p>
             </div>
 
             <!-- Row 3 -->
-            <div class="col-6-middle padded-10">
+            <div class="col-6_sm-12-middle padded-10">
                 <h2 class="uppercase x-bold">Fall in love</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita esse, perferendis magnam hic explicabo reiciendis officiis tempore facere totam. Magnam tempore voluptatibus obcaecati beatae sequi cum alias maiores mollitia vero.</p>
             </div>
-            <div class="col-6 bg-image bg-sheets"></div>
+            <div class="col-6_sm-12 bg-image bg-sheets tall-50 hide-mob"></div>
         </section>
 
         <!-- Social -->
-        <section class="grid-middle padded-5 bg-image bg-exterior bg-dark tall-25">
-            <div class="col-8 center">
+        <section class="grid-middle padded-5 bg-image bg-exterior bg-dark tall-25 mob-tall-12">
+            <div class="col-8_sm-12 center">
                 <h2 class="uppercase x-bold">Hit us up on socials</h2>
                 <a href="#" class="fas"><i class="fa-brands fa-pinterest-p"></i></a>
                 <a href="#" class="fas"><i class="fa-brands fa-instagram"></i></a>
@@ -78,13 +82,13 @@
         </section>
 
         <!-- Map -->
-        <section class="bg-image bg-map tall-50"></section>
+        <section class="bg-image bg-map tall-50 mob-tall-25"></section>
 
         <!-- Footer -->
-        <footer class="grid-spaceBetween-bottom padded-5 bg-dark">
-            <h1 class="col-5 x-bold uppercase">The
+        <footer class="grid-spaceBetween-bottom padded-5 bg-dark flex-flip-mob">
+            <h1 class="col-5_sm-12 x-bold uppercase">The
             <br>Bunker</be></h1>
-            <div class="col-4">
+            <div class="col-4_sm-12 mob-text-right">
                 <p class="bold">Head Office</p>
                 <p>222 John Smith Ave.
                 <br>Victoria, Australia</p>
