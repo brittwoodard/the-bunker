@@ -144,8 +144,12 @@ footer h1 {
 @media(max-width: 48em) {
     h2 {margin: 1rem 0;}
 
+    .mob-padded-10 {padding: 10%;}
+
     .mob-tall-12 {min-height: 12vh;}
+    .mob-tall-20 {min-height: 20vh;}
     .mob-tall-25 {min-height: 25vh;}
+    .mob-tall-35 {min-height: 35vh;}
 
     .mob-text-left {text-align: left;}
     .mob-text-right {text-align: right;}
